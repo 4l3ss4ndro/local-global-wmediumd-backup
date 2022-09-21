@@ -784,7 +784,7 @@ void *rx_cmd_frame(void *unused)
 	fprintf(stdout, "Waiting for UDP message...\n");
 	//Receive from UDP broadcast
 	addr_size_udp = sizeof(client_addr_udp);
-	if(recvfrom(sockfd_udp, (mystruct_tobroadcast *)&broad_mex, sizeof(broad_mex), 0, (struct sockaddr*)&client_addr_udp, &addr_size_udp) < 0)
+	if(recvfrom(sockfd_udp, (mystruct_tobroadcast *)&broad_mex, sizeof(mystruct_tobroadcast), 0, (struct sockaddr*)&client_addr_udp, &addr_size_udp) < 0)
 	{
 		puts("recv failed");
 	}
@@ -828,16 +828,41 @@ static int process_messages_cb(struct nl_msg *msg, void *arg)
 	mystruct_nlmsg message;
 	mystruct_nlmsg* tosend;
     	tosend = &message;
-
+	
+	fprintf(stdout, "Message:\n");
+	printf("%d\n", msg->nm_protocol);
+	printf("%d\n", msg->nm_flags);
+	printf("%zu\n", msg->nm_size);
+	printf("%d\n", msg->nm_refcnt);
+	printf("%u\n", msg->nm_src.nl_family);
+	printf("%u\n", msg->nm_src.nl_pad);
+	printf("%u\n", msg->nm_src.nl_pid);
+	printf("%u\n", msg->nm_src.nl_groups);
+	printf("%u\n", msg->nm_dst.nl_family);
+	printf("%u\n", msg->nm_dst.nl_pad);
+	printf("%u\n", msg->nm_dst.nl_pid);
+	printf("%u\n", msg->nm_dst.nl_groups);
+	printf("%ld\n", (long) msg->nm_creds.pid);
+	printf("%ld\n", (long) msg->nm_creds.uid);
+	printf("%ld\n", (long) msg->nm_creds.gid);
+	printf("%u\n", msg->nm_nlh->nlmsg_len);
+	printf("%u\n", msg->nm_nlh->nlmsg_type);
+	printf("%u\n", msg->nm_nlh->nlmsg_flags);
+	printf("%u\n", msg->nm_nlh->nlmsg_seq);
+	printf("%u\n", msg->nm_nlh->nlmsg_pid);
+	printf("%p %p %p\n", &(msg -> nm_creds), &(msg->nm_nlh), msg->nm_nlh);
+	printf("%p %p\n", nlh, gnlh);
+	
 	message.nm_protocol_t = msg -> nm_protocol;
 	message.nm_flags_t = msg -> nm_flags;
-	message.nm_size_t = msg -> nm_size;
-	message.nm_refcnt_t = msg -> nm_refcnt;
 	message.nm_src_t = msg -> nm_src;
 	message.nm_dst_t = msg -> nm_dst;
 	message.nm_creds_t = msg -> nm_creds;
 	message.nm_nlh_t = *(msg -> nm_nlh);
-	
+	message.nm_size_t = msg -> nm_size;
+	message.nm_refcnt_t = msg -> nm_refcnt;
+	message.nlh_t = *(nlh);
+	message.gnlh_t = *(gnlh);
 	
 	struct station *sender;
 	struct frame *frame;
@@ -852,8 +877,14 @@ static int process_messages_cb(struct nl_msg *msg, void *arg)
 	if (gnlh->cmd == HWSIM_CMD_FRAME) {
 		
 		pthread_rwlock_rdlock(&snr_lock);
+		for(int j=0; j<HWSIM_ATTR_MAX; j++)
+			printf("%p ", attrs[j]);
+		printf("\n");
 		/* we get the attributes*/
 		genlmsg_parse(nlh, 0, attrs, HWSIM_ATTR_MAX, NULL);
+		for(int j=0; j<HWSIM_ATTR_MAX; j++)
+			printf("%p ", attrs[j]);
+		printf("\n");
 		if (attrs[HWSIM_ATTR_ADDR_TRANSMITTER]) {
 			u8 *hwaddr = (u8 *)nla_data(attrs[HWSIM_ATTR_ADDR_TRANSMITTER]); //mac address of tx sta
 
@@ -892,15 +923,16 @@ static int process_messages_cb(struct nl_msg *msg, void *arg)
 			//queue_frame(ctx, sender, frame);
 			
 			//Send data to global wmediumd
-			if(send(sock_w, tosend, sizeof(tosend), 0)< 0)
+			if(send(sock_w, tosend, sizeof(mystruct_nlmsg), 0)< 0)
 				{
 				puts("TCP send failed");
 				return 1;
 			}
-			printf("TCP message sent to global wmediumd\n");
+			else
+				printf("TCP message sent to global wmediumd\n");
 			
 			//Receive a reply from the server
-			if(read(sock_w, torecv, sizeof(torecv))< 0)
+			if(recv(sock_w, torecv, sizeof(mystruct_frame), 0)< 0)
 			{
 				puts("TCP recv failed");
 				return 1;
