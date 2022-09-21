@@ -598,7 +598,7 @@ void deliver_frame(struct wmediumd *ctx, struct frame *frame)
 	mystruct_tobroadcast broad_mex;
 	
 	int rate_idx;
-	fprintf(stdout, "In deliver_frame\n");
+	fprintf(stdout, "In deliver_frame function\n");
 	if (frame->flags & HWSIM_TX_STAT_ACK) {
 		/* rx the frame on the dest interface */
 		list_for_each_entry(station, &ctx->stations, list) {
@@ -649,11 +649,11 @@ void deliver_frame(struct wmediumd *ctx, struct frame *frame)
 				memcpy(broad_mex.hwaddr, station->hwaddr, ETH_ALEN);
 				
 				/* Broadcast broad_mex*/
-				if (sendto(sockfd_udp, (mystruct_tobroadcast*)&broad_mex, sizeof(broad_mex), 0, (struct sockaddr *)&addr_udp, sizeof(addr_udp)) != sizeof(broad_mex)){
+				if (sendto(sockfd_udp, (mystruct_tobroadcast*)&broad_mex, sizeof(mystruct_tobroadcast), 0, (struct sockaddr *)&addr_udp, sizeof(addr_udp)) != sizeof(mystruct_tobroadcast)){
 				    fprintf(stderr, "broadcast sendto error");
 				    exit(1);
 				}
-				printf("UDP broadcast data sent.");
+				printf("UDP broadcast data sent\n");
 				
 				/*send_cloned_frame_msg(ctx, station,
 						      frame->data,
@@ -677,11 +677,11 @@ void deliver_frame(struct wmediumd *ctx, struct frame *frame)
 				memcpy(broad_mex.hwaddr, station->hwaddr, ETH_ALEN);
 				
 				/* Broadcast broad_mex in datagram to clients */
-				if (sendto(sockfd_udp, (mystruct_tobroadcast*)&broad_mex, sizeof(broad_mex), 0, (struct sockaddr *)&addr_udp, sizeof(addr_udp)) != sizeof(broad_mex)){
+				if (sendto(sockfd_udp, (mystruct_tobroadcast*)&broad_mex, sizeof(mystruct_tobroadcast), 0, (struct sockaddr *)&addr_udp, sizeof(addr_udp)) != sizeof(mystruct_tobroadcast)){
 				    fprintf(stderr, "broadcast sendto error");
 				    exit(1);
 				}
-				printf("UDP broadcast data sent.");
+				printf("UDP broadcast data sent\n");
 				/*send_cloned_frame_msg(ctx, station,
 						      frame->data,
 						      frame->data_len,
@@ -702,7 +702,8 @@ void deliver_frame(struct wmediumd *ctx, struct frame *frame)
 	memcpy(server_reply.tx_rates_tosend, frame->tx_rates, sizeof(frame->tx_rates));
 	
 	//Send the message back to client
-	send(sock, frame_tosend, sizeof(frame_tosend), 0);
+	send(sock, frame_tosend, sizeof(mystruct_frame), 0);
+	fprintf(stdout, "Tx info sent\n");
 
 	free(frame);
 }
@@ -795,81 +796,128 @@ int nl_err_cb(struct sockaddr_nl *nla, struct nlmsgerr *nlerr, void *arg)
  */
 static int process_messages_cb(void *arg, mystruct_nlmsg torecv_t)
 {
-	struct wmediumd *ctx = arg;
+	struct wmediumd *ctx = arg;	
 	struct nl_msg *msg;
-	fprintf(stdout, "In process_messages\n");
-	msg -> nm_protocol = torecv_t.nm_protocol_t;
-	msg -> nm_flags = torecv_t.nm_flags_t;
-	msg -> nm_size = torecv_t.nm_size_t;
-	msg -> nm_refcnt = torecv_t.nm_refcnt_t;
-	msg -> nm_src = torecv_t.nm_src_t;
-	msg -> nm_dst = torecv_t.nm_dst_t;
-	msg -> nm_creds = torecv_t.nm_creds_t;
-	*(msg -> nm_nlh) = torecv_t.nm_nlh_t;
-	
+	msg = (struct nl_msg *)malloc(sizeof(struct nl_msg));
 	struct nlattr *attrs[HWSIM_ATTR_MAX+1];
 	struct station *sender;
 	struct frame *frame;
 	int sock_w = socket_to_global;
 	u8 *src;
 	struct ieee80211_hdr *hdr;
-	struct nlmsghdr *nlh = nlmsg_hdr(msg);
-	struct genlmsghdr *gnlh = nlmsg_data(nlh);
+	
+	//struct nlmsghdr fakep;
+	//msg -> nm_nlh = &fakep;
+	
+	fprintf(stdout, "In process_messages function\n");
+	msg -> nm_protocol = torecv_t.nm_protocol_t;
+	msg -> nm_flags = torecv_t.nm_flags_t;
+	msg -> nm_src = torecv_t.nm_src_t;
+	msg -> nm_dst = torecv_t.nm_dst_t;
+	msg -> nm_creds = torecv_t.nm_creds_t;
+	//fakep = torecv_t.nm_nlh_t;
+	//msg -> nm_nlh = &torecv_t.nm_nlh_t;
+	msg -> nm_nlh = (struct nlmsghdr *)malloc(sizeof(struct nlmsghdr));
+	*(msg -> nm_nlh) = torecv_t.nm_nlh_t;
+	msg -> nm_size = torecv_t.nm_size_t;
+	msg -> nm_refcnt = torecv_t.nm_refcnt_t;
+	struct nlmsghdr *nlh = (struct nlmsghdr *)malloc(sizeof(struct nlmsghdr));
+	*(nlh) = torecv_t.nlh_t;
+	struct genlmsghdr *gnlh = (struct genlmsghdr *)malloc(sizeof(struct genlmsghdr));
+	*(gnlh) = torecv_t.gnlh_t;
+	
+	//struct nlmsghdr *nlh = nlmsg_hdr(msg); //return msg->nm_nlh
+	//struct genlmsghdr *gnlh = nlmsg_data(nlh); //return unsigned char *nlh
+	
+	fprintf(stdout, "Message content:\n");
+	printf("%d\n", msg->nm_protocol);
+	printf("%d\n", msg->nm_flags);
+	printf("%zu\n", msg->nm_size);
+	printf("%d\n", msg->nm_refcnt);
+	printf("%u\n", msg->nm_src.nl_family);
+	printf("%u\n", msg->nm_src.nl_pad);
+	printf("%u\n", msg->nm_src.nl_pid);
+	printf("%u\n", msg->nm_src.nl_groups);
+	printf("%u\n", msg->nm_dst.nl_family);
+	printf("%u\n", msg->nm_dst.nl_pad);
+	printf("%u\n", msg->nm_dst.nl_pid);
+	printf("%u\n", msg->nm_dst.nl_groups);
+	printf("%ld\n", (long) msg->nm_creds.pid);
+	printf("%ld\n", (long) msg->nm_creds.uid);
+	printf("%ld\n", (long) msg->nm_creds.gid);
+	printf("%u\n", msg->nm_nlh->nlmsg_len);
+	printf("%u\n", msg->nm_nlh->nlmsg_type);
+	printf("%u\n", msg->nm_nlh->nlmsg_flags);
+	printf("%u\n", msg->nm_nlh->nlmsg_seq);
+	printf("%u\n", msg->nm_nlh->nlmsg_pid);
+	printf("Frame received\n");
+	printf("%p %p %p\n", &(msg -> nm_creds), &(msg->nm_nlh), msg->nm_nlh);
+	printf("%p %p\n", nlh, gnlh);
 	
 	if (gnlh->cmd == HWSIM_CMD_FRAME) {
 		pthread_rwlock_rdlock(&snr_lock);
-			fprintf(stdout, "HWSIM_CMD_FRAME received\n");
+		fprintf(stdout, "HWSIM_CMD_FRAME received\n");
+		for(int j=0; j<HWSIM_ATTR_MAX; j++)
+			printf("%p ", attrs[j]);
+		printf("\n");
 		/* we get the attributes*/
-			genlmsg_parse(nlh, 0, attrs, HWSIM_ATTR_MAX, NULL);
-			if (attrs[HWSIM_ATTR_ADDR_TRANSMITTER]) {
-				u8 *hwaddr = (u8 *)nla_data(attrs[HWSIM_ATTR_ADDR_TRANSMITTER]);
+		int genl_out = genlmsg_parse(nlh, 0, attrs, HWSIM_ATTR_MAX, NULL);
+		//fprintf(stdout, "%d\n", genl_out);
+		for(int j=0; j<HWSIM_ATTR_MAX; j++)
+			printf("%p ", attrs[j]);
+		printf("\n");
+		if (attrs[HWSIM_ATTR_ADDR_TRANSMITTER]) {
+			fprintf(stdout, "Attributes got\n");
+			u8 *hwaddr = (u8 *)nla_data(attrs[HWSIM_ATTR_ADDR_TRANSMITTER]);
 
-				unsigned int data_len =
-					nla_len(attrs[HWSIM_ATTR_FRAME]);
-				char *data = (char *)nla_data(attrs[HWSIM_ATTR_FRAME]);
-				unsigned int flags =
-					nla_get_u32(attrs[HWSIM_ATTR_FLAGS]);
-				unsigned int tx_rates_len =
-					nla_len(attrs[HWSIM_ATTR_TX_INFO]);
-				struct hwsim_tx_rate *tx_rates =
-					(struct hwsim_tx_rate *)
-					nla_data(attrs[HWSIM_ATTR_TX_INFO]);
-				u64 cookie = nla_get_u64(attrs[HWSIM_ATTR_COOKIE]);
-				u32 freq;
-				freq = attrs[HWSIM_ATTR_FREQ] ?
-						nla_get_u32(attrs[HWSIM_ATTR_FREQ]) : 2412;
+			unsigned int data_len =
+				nla_len(attrs[HWSIM_ATTR_FRAME]);
+			char *data = (char *)nla_data(attrs[HWSIM_ATTR_FRAME]);
+			unsigned int flags =
+				nla_get_u32(attrs[HWSIM_ATTR_FLAGS]);
+			unsigned int tx_rates_len =
+				nla_len(attrs[HWSIM_ATTR_TX_INFO]);
+			struct hwsim_tx_rate *tx_rates =
+				(struct hwsim_tx_rate *)
+				nla_data(attrs[HWSIM_ATTR_TX_INFO]);
+			u64 cookie = nla_get_u64(attrs[HWSIM_ATTR_COOKIE]);
+			u32 freq;
+			freq = attrs[HWSIM_ATTR_FREQ] ?
+					nla_get_u32(attrs[HWSIM_ATTR_FREQ]) : 2412;
 
-				hdr = (struct ieee80211_hdr *)data;
-				src = hdr->addr2;
+			hdr = (struct ieee80211_hdr *)data;
+			src = hdr->addr2;
 
-				if (data_len < 6 + 6 + 4)
-					goto out;
+			if (data_len < 6 + 6 + 4)
+				goto out;
 
-				sender = get_station_by_addr(ctx, src);
-				if (!sender) {
-					w_flogf(ctx, LOG_ERR, stderr, "Unable to find sender station " MAC_FMT "\n", MAC_ARGS(src));
-					goto out;
-				}
-				memcpy(sender->hwaddr, hwaddr, ETH_ALEN);
-
-				frame = malloc(sizeof(*frame) + data_len);
-				if (!frame)
-					goto out;
-
-				memcpy(frame->data, data, data_len);
-				frame->data_len = data_len;
-				frame->flags = flags;
-				frame->cookie = cookie;
-				frame->freq = freq;
-				frame->sender = sender;
-				sender->freq = freq;
-				frame->tx_rates_count =
-					tx_rates_len / sizeof(struct hwsim_tx_rate);
-				memcpy(frame->tx_rates, tx_rates,
-				       min(tx_rates_len, sizeof(frame->tx_rates)));
-				fprintf(stdout, "Frame queued\n");
-				queue_frame(ctx, sender, frame);
+			sender = get_station_by_addr(ctx, src);
+			if (!sender) {
+				printf("Cannot find sender sta\n");
+				w_flogf(ctx, LOG_ERR, stderr, "Unable to find sender station " MAC_FMT "\n", MAC_ARGS(src));
+				goto out;
 			}
+			printf("Sender sta found\n");
+			memcpy(sender->hwaddr, hwaddr, ETH_ALEN);
+
+			frame = malloc(sizeof(*frame) + data_len);
+			if (!frame)
+				goto out;
+
+			memcpy(frame->data, data, data_len);
+			frame->data_len = data_len;
+			frame->flags = flags;
+			frame->cookie = cookie;
+			frame->freq = freq;
+			frame->sender = sender;
+			sender->freq = freq;
+			frame->tx_rates_count =
+				tx_rates_len / sizeof(struct hwsim_tx_rate);
+			memcpy(frame->tx_rates, tx_rates,
+			       min(tx_rates_len, sizeof(frame->tx_rates)));
+			fprintf(stdout, "Frame queued\n");
+			queue_frame(ctx, sender, frame);
+		}
 
 out:
 	pthread_rwlock_unlock(&snr_lock);
@@ -1018,9 +1066,29 @@ void *connection_handler(void *socket_desc)
 	while(1)
 	{
 	fprintf(stdout, "Waiting for messages from client\n");
-	while( (read_size = read(sock, client_message, sizeof(client_message)) > 0 ))
+	while( (read_size = recv(sock, client_message, sizeof(mystruct_nlmsg), 0) > 0 ))
 	{
 		fprintf(stdout, "TCP message received\n");
+		/*printf("%d\n", torecv.nm_protocol_t);
+		printf("%d\n", torecv.nm_flags_t);
+		printf("%zu\n", torecv.nm_size_t);
+		printf("%d\n", torecv.nm_refcnt_t);
+		printf("%u\n", torecv.nm_src_t.nl_family);
+		printf("%u\n", torecv.nm_src_t.nl_pad);
+		printf("%u\n", torecv.nm_src_t.nl_pid);
+		printf("%u\n", torecv.nm_src_t.nl_groups);
+		printf("%u\n", torecv.nm_dst_t.nl_family);
+		printf("%u\n", torecv.nm_dst_t.nl_pad);
+		printf("%u\n", torecv.nm_dst_t.nl_pid);
+		printf("%u\n", torecv.nm_dst_t.nl_groups);
+		printf("%ld\n", (long) torecv.nm_creds_t.pid);
+		printf("%ld\n", (long) torecv.nm_creds_t.uid);
+		printf("%ld\n", (long) torecv.nm_creds_t.gid);
+		printf("%u\n", torecv.nm_nlh_t.nlmsg_len);
+		printf("%u\n", torecv.nm_nlh_t.nlmsg_type);
+		printf("%u\n", torecv.nm_nlh_t.nlmsg_flags);
+		printf("%u\n", torecv.nm_nlh_t.nlmsg_seq);
+		printf("%u\n", torecv.nm_nlh_t.nlmsg_pid);*/
 		process_messages_cb(ctx, torecv);
 	}
 	
