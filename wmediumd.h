@@ -177,11 +177,10 @@ struct nl_msg {
 
 typedef struct{
 		size_t data_len_tobroadcast;
-		u8 data_tobroadcast;
+		u8 data_tobroadcast[2048];
 		int rate_idx_tobroadcast;
 		int signal_tobroadcast;
 		u32 freq_tobroadcast;
-		int cmd_frame;
 		u8 hwaddr[ETH_ALEN];
 	} mystruct_tobroadcast;
 
@@ -194,16 +193,15 @@ typedef struct{
 	} mystruct_frame;
 
 typedef struct{
-		int nm_protocol_t;
-		int nm_flags_t;
- 		struct sockaddr_nl nm_src_t;
- 		struct sockaddr_nl nm_dst_t;
- 		struct ucred nm_creds_t;
- 		struct nlmsghdr nm_nlh_t;
- 		size_t nm_size_t;
- 		int nm_refcnt_t;
- 		struct nlmsghdr nlh_t;
- 		struct genlmsghdr gnlh_t;
+		u8 hwaddr_t;
+		unsigned int data_len_t;
+		unsigned int flags_t;
+		unsigned int tx_rates_len_t;
+		struct hwsim_tx_rate tx_rates_t;
+		u64 cookie_t;
+		u32 freq_t;
+		u8 src_t;
+		char data_t[2048];
 	} mystruct_nlmsg;
 
 struct station {
