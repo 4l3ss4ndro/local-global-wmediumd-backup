@@ -1,0 +1,3218 @@
+Entering local wmediumd
+Input packet error rate file: /usr/local/lib/python3.8/dist-packages/mininet_wifi-2.5-py3.8.egg/mn_wifi/data/signal_table_ieee80211
+In init_netlink function
+Registering HWSIM_CMD_REGISTER
+Start wserver
+Joining thread for UDP socket
+Connecting to global wmediumd...
+Creating UDP socket...
+Waiting for UDP message...
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 136
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 136
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 112
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 136
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 112
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 112
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 112
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 136
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 136
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 96
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 136
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 96
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 136
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 136
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 96
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 96
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 96
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 96
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 96
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 96
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 96
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 96
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 96
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
+UDP message received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+TCP message sent to global wmediumd
