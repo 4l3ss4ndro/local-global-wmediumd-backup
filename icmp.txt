@@ -1,0 +1,108 @@
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 96
+Frame content: 136200515100022000002000001120321031700017017030001342219600001658255254128000000000255254000255200000000000002133012346000011200000
+Sender: 02:00:00:00:00:00
+TCP message sent to global wmediumd
+UDP message received
+This is not the station receiving the frame
+This is the station receiving the frame
+In send_cloned_frame_msg function
+cloned msg dest 02:00:00:00:01:00 (radio: 02:00:00:00:01:00) len 96
+HWSIM_CMD_FRAME delivered
+Frame correctly received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+Frame content: 1280002552552552552552552000102000100011941711702042335023230000181304112212182436315540200504487296108452612616272552550000000000100000000006122553000255255000000000000001147109101115104781011161137110100925522351112128186400191000000000250255250255255736240631128255255
+Sender: 02:00:00:00:01:00
+TCP message sent to global wmediumd
+UDP message received
+This is not the station receiving the frame
+This is the station receiving the frame
+In send_cloned_frame_msg function
+cloned msg dest 02:00:00:00:01:00 (radio: 02:00:00:00:01:00) len 166
+HWSIM_CMD_FRAME delivered
+Frame correctly received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+Frame content: 12800025525525525525525520000020000000111941711702042335023230000181304112212182436315541200504487296108452612616272552550000000000100000000006122553000255255000000000000001147109101115104781011161137110100925522351112128186400191000000000250255250255255736240631128255255
+Sender: 02:00:00:00:00:00
+TCP message sent to global wmediumd
+UDP message received
+This is not the station receiving the frame
+This is the station receiving the frame
+In send_cloned_frame_msg function
+cloned msg dest 02:00:00:00:01:00 (radio: 02:00:00:00:01:00) len 166
+HWSIM_CMD_FRAME delivered
+Frame correctly received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+Frame content: 1280002552552552552552552000102000100075981871702042335023230000181304112212182436315541200504487296108452612616272552550000000000100000000006122553000255255000000000000001147109101115104781011161137110100925522351112128186400191000000000250255250255255736240631128255255
+Sender: 02:00:00:00:01:00
+TCP message sent to global wmediumd
+UDP message received
+This is not the station receiving the frame
+This is the station receiving the frame
+In send_cloned_frame_msg function
+cloned msg dest 02:00:00:00:01:00 (radio: 02:00:00:00:01:00) len 166
+HWSIM_CMD_FRAME delivered
+Frame correctly received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+Frame content: 12800025525525525525525520000020000000111981871702042335023230000181304112212182436315540200504487296108452612616272552550000000000100000000006122553000255255000000000000001147109101115104781011161137110100925522351112128186400191000000000250255250255255736240631128255255
+Sender: 02:00:00:00:00:00
+TCP message sent to global wmediumd
+UDP message received
+This is not the station receiving the frame
+This is the station receiving the frame
+In send_cloned_frame_msg function
+cloned msg dest 02:00:00:00:01:00 (radio: 02:00:00:00:01:00) len 166
+HWSIM_CMD_FRAME delivered
+Frame correctly received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+Frame content: 128000255255255255255255200010200010006222031702042335023230000181304112212182436315540200504487296108452612616272552550000000000100000000006122553000255255000000000000001147109101115104781011161137110100925522351112128186400191000000000250255250255255736240631128255255
+Sender: 02:00:00:00:01:00
+TCP message sent to global wmediumd
+UDP message received
+This is not the station receiving the frame
+This is the station receiving the frame
+In send_cloned_frame_msg function
+cloned msg dest 02:00:00:00:01:00 (radio: 02:00:00:00:01:00) len 166
+HWSIM_CMD_FRAME delivered
+Frame correctly received
+Tx info received from global wmediumd
+In send_tx_info_frame_nl function
+Tx info frame delivered
+Tx info message correctly received
+In sock_event_cb function
+In process_messages_cb function
+Data_len: 166
+Frame content: 128000255255255255255255200000200000007822031702042335023230000181304112212182436315541200504487296108452612616272552550000000000100000000006122553000255255000000000000001147109101115104781011161137110100925522351112128186400191000000000250255250255255736240631128255255
+Sender: 02:00:00:00:00:00
+TCP message sent to global wmediumd
